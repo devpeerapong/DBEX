@@ -33,7 +33,7 @@ public class InsertItem : MonoBehaviour {
 
 		nameInput = "";
 		passwordInput = "";
-		ageInput = ""
+		ageInput = "";
 
 		Read ();
 	}
