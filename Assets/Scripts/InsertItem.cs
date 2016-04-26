@@ -31,9 +31,9 @@ public class InsertItem : MonoBehaviour {
 		dbcmd.Dispose();dbcmd = null;
 		dbconn.Close();dbconn = null;
 
-		nameInput = "";
-		passwordInput = "";
-		ageInput = "";
+		nameInput.text = "";
+		passwordInput.text = "";
+		ageInput.text = "";
 
 		Read ();
 	}
